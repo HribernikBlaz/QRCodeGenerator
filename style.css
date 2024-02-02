@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Bold.otf') format('opentype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.otf') format('opentype');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -88,6 +99,7 @@ body{
 }
 #submit{
     transition:  0.3s;
+    font-size: 16px;
 }
 #submit:hover{
     background: var(--button-hover);
